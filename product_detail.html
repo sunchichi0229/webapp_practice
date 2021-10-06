@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SIMPLE MARKET</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">ホーム</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">雑貨</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">衣類</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">食品</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <main class="mt-3">
+          <div class="container">
+              <div class="row">
+                  <div class="co-md-5 w-50">
+                    <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://shop.r10s.jp/semagasin/cabinet/08162997/imgrc0072766064.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://shop.r10s.jp/semagasin/cabinet/08162997/imgrc0072766065.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://shop.r10s.jp/semagasin/cabinet/08162997/imgrc0072766060.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="co-md-7 w-50">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">マーナ MARNA お風呂のスリッパ ホワイト</h5>
+                            <h5 class="card-title pt-3 pb-3 border-top">2,300円(税込)</h5>
+                            <p class="card-text pt-3 border-top">
+                                <span class="badge bg-success">雑貨</span>
+                                <span class="badge bg-success">浴室</span>
+                                <span class="badge bg-success">スリッパ</span>
+                            </p>
+                            <p class="card-text pb-3">
+                                送料無料 | 宅配便(佐川急便) | 14:00までの注文で最短翌日お届け
+                            </p>
+                            <p class="card-text pb-3 border-top">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <label class="col-form-label">個数</label>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="input-group">
+                                            <span class="input-group-text">-</span>
+                                            <input type="text" class="form-control" style="width:40px;" value="1">
+                                            <span class="input-group-text">+</span>
+                                          </div>
+                                    </div>
+                                </div>
+                            </p>
+                            <div class="row pt-3 pb-3 border-top">
+                                <div class="col-6">
+                                    <h3>合計金額</h3>
+                                </div>
+                                <div class="col-6"　style="text-align: right;">
+                                    <h3>2,300</h3>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="col-6 d-grid p-1">
+                                    <button type="button" class="btn btn-lg btn-dark">かごに追加</button>
+                                </div>
+                                <div class="col-6 d-grid p-1">
+                                    <button type="button" class="btn btn-lg btn-danger">注文</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                  </div>
+              </div>
+              <div class="row mt-3">
+                  <div class="col-12">
+                      <img src="https://image.rakuten.co.jp/semagasin/cabinet/08162997/imgrc0072766063.jpg" class="img-fluid">
+                      <div class="mt-2">
+                        <h4><b>軽くてやわらかく、履きやすい、浴室用スリッパ</b></h4>
+                        <h5>しゃがんだ時に曲がりやすい甲とソールのデザインです。</h5>
+                        <h5>バーにかけたり、フック穴で吊るして収納できます。</h5>
+                        <h5>かかとのフラット面で立たせて収納できます。</h5>
+                      </div>
+                      <img src="https://image.rakuten.co.jp/semagasin/cabinet/08162997/imgrc0072766060.jpg" class="img-fluid">
+                      <img src="https://image.rakuten.co.jp/semagasin/cabinet/08162997/imgrc0072766061.jpg" class="img-fluid">
+                      <div class="mt-2">
+                        <p><b>商品詳細</b></p>
+                        <span>材質：EVA樹脂</span><br>
+                        <span>サイズ：約113×102×279mm(片足分/約23.5～25cm)</span><br><br>
+                        <p><b>ご注意</b></p>
+                        <span>※滑りやすい場所でご使用の際はお気を付けください。</span><br>
+                        <span>※長時間直射日光のあたる場所に放置しないでください。</span><br>
+                        <span>※素材の特性上、気温により硬さが変わる場合があります。</span><br>
+                        <span>※火のそばや高温になるところには置かないでください。</span><br>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </main>
+      <footer class="mt-5 py-5 bg-dark">
+        <div class="row">
+          <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+            <small class="d-block mb-3 text-muted">© 2017-2021</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>特徴</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">クールなスタッフ</a></li>
+              <li><a class="link-secondary" href="#">その他の特徴</a></li>
+              <li><a class="link-secondary" href="#">チームの特徴</a></li>
+              <li><a class="link-secondary" href="#">開発者向け</a></li>
+              <li><a class="link-secondary" href="#">そのほか</a></li>
+              <li><a class="link-secondary" href="#">最後</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>リソース</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">リソース</a></li>
+              <li><a class="link-secondary" href="#">リソース名</a></li>
+              <li><a class="link-secondary" href="#">その他のリソース</a></li>
+              <li><a class="link-secondary" href="#">最後のリソース</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>リソース</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">ビジネス</a></li>
+              <li><a class="link-secondary" href="#">教育</a></li>
+              <li><a class="link-secondary" href="#">政治</a></li>
+              <li><a class="link-secondary" href="#">ゲーム</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>この製品について</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">チーム</a></li>
+              <li><a class="link-secondary" href="#">場所</a></li>
+              <li><a class="link-secondary" href="#">プライバシー</a></li>
+              <li><a class="link-secondary" href="#">利用規約</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
+
