@@ -11,3 +11,7 @@ app.use(session({
         maxAge: 1000 * 60 * 60 //cookie有効期限
     }
 }));
+
+const server = app.listen(3000, () => {
+    console.log('Server started. port 3000.')
+});
