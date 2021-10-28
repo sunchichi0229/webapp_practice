@@ -13,5 +13,14 @@ app.use(session({
 }));
 
 const server = app.listen(3000, () => {
-    console.log('Server started. port 3000.')
+    console.log('Server started. port 3000.');
+});
+
+app.post('/api/login', async(request, res) => {
+
+
+});
+app.post('/api/logout', async(request, res) => {
+
+
 });
