@@ -16,6 +16,14 @@ const server = app.listen(3000, () => {
     console.log('Server started. port 3000.');
 });
 
+const db = {
+    database: "dev_class"
+    connectionLimit: 10,
+    host: "192.168.219.100",
+    user: "root",
+    password: "mariadb"
+};
+
 app.post('/api/login', async(request, res) => {
 
 
