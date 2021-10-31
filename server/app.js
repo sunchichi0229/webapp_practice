@@ -24,6 +24,8 @@ const db = {
     password: "mariadb"
 };
 
+const dbPool = require('mysql').createPool(db);
+
 app.post('/api/login', async(request, res) => {
 
 
