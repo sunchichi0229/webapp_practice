@@ -34,3 +34,5 @@ app.post('/api/logout', async(request, res) => {
 
 
 });
+
+app.post('/api/:alias')
