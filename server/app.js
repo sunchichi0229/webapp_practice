@@ -35,4 +35,15 @@ app.post('/api/logout', async(request, res) => {
 
 });
 
-app.post('/api/:alias')
+const sql = require('./sql.js');
+
+app.post('/api/:alias', async(request, res) => {
+    try {
+        res.send(await req.db(request.params.alias))
+    } catch(err) {
+        res.status(500).send({
+            error: err
+        });
+    }
+});
+
